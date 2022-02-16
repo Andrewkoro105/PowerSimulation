@@ -1,0 +1,3 @@
+C:/Project/_PowerSimulation/cmake-build-debug/CMakeFiles/_PowerSimulation.dir
+C:/Project/_PowerSimulation/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Project/_PowerSimulation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
