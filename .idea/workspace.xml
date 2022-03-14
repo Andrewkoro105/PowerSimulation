@@ -5,7 +5,12 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="_PowerSimulation" targetName="gtest_main" />
+      <config projectName="_PowerSimulation" targetName="gmock" />
       <config projectName="_PowerSimulation" targetName="_PowerSimulation" />
+      <config projectName="_PowerSimulation" targetName="gtest" />
+      <config projectName="_PowerSimulation" targetName="Google_Tests_run" />
+      <config projectName="_PowerSimulation" targetName="gmock_main" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -21,14 +26,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <hideBySeverity>
+      <option value="300" />
+    </hideBySeverity>
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -46,41 +62,178 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="ToolWindowPython Packages.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cliontest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test-clion" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="structure.view.defaults.are.configured" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Project\_PowerSimulation\UnitTest\BitsTest" />
+      <recent name="C:\Project\_PowerSimulation\UnitTest\EnergyTest" />
+      <recent name="C:\Project\_PowerSimulation\engine\bloks" />
+      <recent name="C:\Project\_PowerSimulation\UnitTest\BirsTest" />
+      <recent name="C:\Project\_PowerSimulation\engine\bits" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application._PowerSimulation">
+    <configuration name="All in _PowerSimulation" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" singleton="false" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="_PowerSimulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="_PowerSimulation" RUN_TARGET_NAME="_PowerSimulation" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlockEnegi_Wire.UpOne" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="_PowerSimulation" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="BlockEnegi_Wire" TEST_METHOD="UpOne" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlockEnegi.oneStepUp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="_PowerSimulation" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="BlockEnegi" TEST_METHOD="oneStepUp" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Google_Tests_run" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="_PowerSimulation" RUN_TARGET_NAME="Google_Tests_run" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="_PowerSimulation" RUN_TARGET_NAME="Google_Tests_run" TEST_PATTERN="MapTest.*:MapTest/*.*:MapTest.*/*:*/MapTest.*/*:*/MapTest/*.*" TEST_MODE="PATTERN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapTest.ChangeRetention" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="_PowerSimulation" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="MapTest" TEST_METHOD="ChangeRetention" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapTest.SaveTesting" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="_PowerSimulation" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="MapTest" TEST_METHOD="SaveTesting" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_PowerSimulation" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="_PowerSimulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="_PowerSimulation" RUN_TARGET_NAME="_PowerSimulation">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="gmock" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application._PowerSimulation" />
+      <item itemvalue="CMake Application.gmock" />
+      <item itemvalue="CMake Application.gmock_main" />
+      <item itemvalue="CMake Application.gtest" />
+      <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="Google Test.Google_Tests_run" />
+      <item itemvalue="Google Test.All in _PowerSimulation" />
+      <item itemvalue="Google Test.BlockEnegi.oneStepUp" />
+      <item itemvalue="Google Test.BlockEnegi_Wire.UpOne" />
+      <item itemvalue="Google Test.MapTest.SaveTesting" />
+      <item itemvalue="Google Test.MapTest.ChangeRetention" />
+      <item itemvalue="Google Test.MapTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.MapTest.ChangeRetention" />
+        <item itemvalue="Google Test.MapTest" />
+        <item itemvalue="Google Test.MapTest.SaveTesting" />
+        <item itemvalue="Google Test.BlockEnegi.oneStepUp" />
+        <item itemvalue="Google Test.BlockEnegi_Wire.UpOne" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/UnitTest/MapSaveTest/MapTest.cpp</url>
+          <line>22</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/engine/Map.h</url>
+          <line>16</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/engine/Map.cpp</url>
+          <line>15</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="CidrExceptionBreakpoint" />
+        <breakpoint enabled="true" type="javascript-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
     <watches-manager>
+      <configuration name="CMakeGoogleTestRunConfigurationType">
+        <watch expression="this-&gt;cells[0]" />
+        <watch expression="map" />
+        <watch expression="map" />
+        <watch expression="map" />
+        <watch expression="map.cells[1][0]" />
+        <watch expression="map.cells[1][0]" />
+        <watch expression="map.cells[2]" />
+        <watch expression="this-&gt;cells[1]" />
+        <watch expression="map.cells" />
+      </configuration>
       <configuration name="CMakeRunConfiguration">
         <watch expression="__x" />
         <watch expression="this-&gt;map" />
         <watch expression="this-&gt;map[1]" />
         <watch expression="this-&gt;map[0]" />
+        <watch expression="this-&gt;game-&gt;camera" />
+        <watch expression="this-&gt;game-&gt;camera" />
+        <watch expression="this" />
+        <watch expression="this-&gt;view.m_center.y" />
+        <watch expression="this" />
+        <watch expression="this-&gt;cells" />
+        <watch expression="this-&gt;activCellsPostion" />
+        <watch expression="this-&gt;activCellsPosition[0].x" />
+        <watch expression="this" />
       </configuration>
     </watches-manager>
   </component>
