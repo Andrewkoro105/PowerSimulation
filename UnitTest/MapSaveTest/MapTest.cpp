@@ -22,3 +22,11 @@ TEST(MapTest, ChangeRetention) {
     Map map1(pathToMap);
     EXPECT_TRUE(map == map1);
 }
+TEST(MapTest, fourCondition) {
+    std::string pathToMap = "../../UnitTest/MapSaveTest/test3.psm";
+
+    Map map(std::vector<std::vector<Object>>(1, std::vector<Object>(1, Object{8, 0, 3})), pathToMap);
+    map.save(pathToMap);
+    Map map1(pathToMap);
+    EXPECT_TRUE(map == map1);
+}

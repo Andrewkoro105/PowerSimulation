@@ -27,7 +27,7 @@ public:
     uint8_t getRotation() const;
 
     void setCondition(uint8_t condition);
-    bool getCondition() const;
+    int getCondition() const;
 
     TypeObject* getType() const;
     int getIntType() const;

@@ -95,12 +95,6 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlockEnegi_Wire.UpOne" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="_PowerSimulation" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="BlockEnegi_Wire" TEST_METHOD="UpOne" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BlockEnegi.oneStepUp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="_PowerSimulation" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="BlockEnegi" TEST_METHOD="oneStepUp" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -126,6 +120,12 @@
       </method>
     </configuration>
     <configuration name="MapTest.SaveTesting" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="_PowerSimulation" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="MapTest" TEST_METHOD="SaveTesting" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapTest.fourCondition" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="_PowerSimulation" RUN_TARGET_NAME="Google_Tests_run" TEST_CLASS="MapTest" TEST_METHOD="fourCondition" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -165,18 +165,18 @@
       <item itemvalue="Google Test.Google_Tests_run" />
       <item itemvalue="Google Test.All in _PowerSimulation" />
       <item itemvalue="Google Test.BlockEnegi.oneStepUp" />
-      <item itemvalue="Google Test.BlockEnegi_Wire.UpOne" />
       <item itemvalue="Google Test.MapTest.SaveTesting" />
       <item itemvalue="Google Test.MapTest.ChangeRetention" />
       <item itemvalue="Google Test.MapTest" />
+      <item itemvalue="Google Test.MapTest.fourCondition" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Google Test.MapTest.fourCondition" />
         <item itemvalue="Google Test.MapTest.ChangeRetention" />
         <item itemvalue="Google Test.MapTest" />
         <item itemvalue="Google Test.MapTest.SaveTesting" />
         <item itemvalue="Google Test.BlockEnegi.oneStepUp" />
-        <item itemvalue="Google Test.BlockEnegi_Wire.UpOne" />
       </list>
     </recent_temporary>
   </component>
@@ -188,19 +188,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/UnitTest/MapSaveTest/MapTest.cpp</url>
-          <line>22</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/engine/Map.h</url>
           <line>16</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/engine/Map.cpp</url>
-          <line>15</line>
-          <option name="timeStamp" value="39" />
+          <line>292</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -219,6 +214,7 @@
         <watch expression="map.cells[2]" />
         <watch expression="this-&gt;cells[1]" />
         <watch expression="map.cells" />
+        <watch expression="this-&gt;cells[0][1]" />
       </configuration>
       <configuration name="CMakeRunConfiguration">
         <watch expression="__x" />

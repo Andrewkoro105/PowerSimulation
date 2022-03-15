@@ -25,7 +25,7 @@ void Object::setCondition(uint8_t condition) {
         powerData.сondition = condition;
 }
 
-bool Object::getCondition() const {
+int Object::getCondition() const {
     return powerData.сondition;
 }
 
