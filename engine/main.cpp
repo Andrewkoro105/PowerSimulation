@@ -3,7 +3,7 @@
 #include <string>
 #include "Game.h"
 #include "../control/Control.h"
-//../maps/test.map
+//../maps/test.world
 
 int main(int argc, char *argv[]) {
     sf::Event event{};

@@ -16,7 +16,7 @@ TEST(MapTest, ChangeRetention) {
     std::string pathToMap = "../../UnitTest/MapSaveTest/test2.psm";
 
     Map map(std::vector<std::vector<Object>>(1, std::vector<Object>(2, Object{0, 0, 0})), pathToMap);
-    //map.setObject(Object(3, 0, 0), {5, 8});
+    //world.setObject(Object(3, 0, 0), {5, 8});
     map.setObject(Object(1, 2, 0, std::array<uint8_t, 4>()), {0, 0});
     map.save(pathToMap);
     Map map1(pathToMap);

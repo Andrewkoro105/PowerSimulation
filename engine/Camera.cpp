@@ -50,3 +50,13 @@ void Camera::move(sf::Vector2f pos) {
 float Camera::getZoom() const {
     return zoom;
 }
+
+sf::Vector2i Camera::toWorldPositionNotInventoryY(sf::Vector2i posMouse) {
+    sf::Vector2i positionRelativeCamera(window->getSize() / 2U - static_cast<sf::Vector2u>(posMouse));
+    return sf::Vector2i((sf::Vector2f(positionRelativeCamera.x * -1, positionRelativeCamera.y) * getZoom() + sf::Vector2f(view.getCenter().x, -view.getCenter().y)));
+}
+
+sf::Vector2i Camera::toWorldPosition(sf::Vector2i posMouse) {
+    sf::Vector2i positionRelativeCamera(window->getSize() / 2U - static_cast<sf::Vector2u>(posMouse));
+    return sf::Vector2i((sf::Vector2f(positionRelativeCamera.x * -1, positionRelativeCamera.y * -1) * getZoom() + sf::Vector2f(view.getCenter().x, -view.getCenter().y)));
+}

@@ -9,8 +9,8 @@ to install, download exe file and image folder
 A simple startup will create/open a test.mps file that is 32 by 32 blocks in size.  
 The input of the arguments is supported :
 - the path to the file to be opened/created (if only the path is specified and there is no such file, the file will be created 32 by 32 blocks)
-- map size in width
-- map size in height
+- world size in width
+- world size in height
 ### control
 - `w, a, s, d` - move
 - `e` - switch block to the next
@@ -35,7 +35,7 @@ The input of the arguments is supported :
 #### 6. The logical operator `xand`
 > takes energy on the sides and outputs a signal at the front equal to 2 if they are both either greater than 0 or equal to 0
 #### 7. intersection
-> it outputs energy from the bottom and similarly from left to right
+> it outputs energy from the bottom and similarly from Left to Right
 #### 8. lamp
 > lights up if power is applied to it
 

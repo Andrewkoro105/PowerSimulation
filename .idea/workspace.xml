@@ -107,7 +107,7 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="Google_Tests_run" RUN_TARGET_PROJECT_NAME="_PowerSimulation" RUN_TARGET_NAME="Google_Tests_run" TEST_PATTERN="MapTest.*:MapTest/*.*:MapTest.*/*:*/MapTest.*/*:*/MapTest/*.*" TEST_MODE="PATTERN">
+    <configuration name="MapTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="Google_Tests_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="_PowerSimulation" RUN_TARGET_NAME="Google_Tests_run" TEST_PATTERN="MapTest.*:MapTest/*.*:MapTest.*/*:*/MapTest.*/*:*/MapTest/*.*" TEST_MODE="PATTERN">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -132,6 +132,11 @@
       </method>
     </configuration>
     <configuration name="_PowerSimulation" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="_PowerSimulation" TARGET_NAME="_PowerSimulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="_PowerSimulation" RUN_TARGET_NAME="_PowerSimulation">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>

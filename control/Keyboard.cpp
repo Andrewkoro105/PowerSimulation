@@ -1,6 +1,6 @@
 #include "Keyboard.h"
 
-Keyboard::Keyboard(Game* game, sf::Event* event) : event(event), game(game) {}
+Keyboard::Keyboard(Game* game, sf::Event* event) : event(event), game(game), copyingCells(nullptr){}
 
 void Keyboard::Check() {
     if (event->type == sf::Event::KeyPressed) {
@@ -22,5 +22,38 @@ void Keyboard::Check() {
         } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::E)) {
             inventory.upType();
         }
+
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::C)){
+            copying();
+        } if (sf::Keyboard::isKeyPressed(sf::Keyboard::V)){
+            paste();
+        }
+    }
+}
+
+void Keyboard::copying() {
+    sf::Vector2i startPositionRelativeWorld(game->camera.toWorldPositionNotInventoryY(sf::Mouse::getPosition(*game->camera.window)));
+    sf::Vector2i startPositionRelativeMap(generalTexture.toGamePosition(startPositionRelativeWorld));
+    std::cout << startPositionRelativeMap.x << ' ' << startPositionRelativeMap.y << std::endl;
+
+    while (!sf::Mouse::isButtonPressed(sf::Mouse::Left)){}
+
+    sf::Vector2i endPositionRelativeWorld(game->camera.toWorldPositionNotInventoryY(sf::Mouse::getPosition(*game->camera.window)));
+    sf::Vector2i endPositionRelativeMap(generalTexture.toGamePosition(endPositionRelativeWorld));
+    std::cout << endPositionRelativeMap.x << ' ' << endPositionRelativeMap.y << std::endl;
+
+    copyingCells = new Copying(startPositionRelativeMap, endPositionRelativeMap, *game->world);
+    std::cout << "copy"<< std::endl;
+}
+
+void Keyboard::paste() {
+    if (copyingCells != nullptr) {
+        sf::Vector2i positionRelativeWorld(
+                game->camera.toWorldPositionNotInventoryY(sf::Mouse::getPosition(*game->camera.window)));
+        sf::Vector2i positionRelativeMap(generalTexture.toGamePosition(positionRelativeWorld));
+        std::cout << positionRelativeMap.x << ' ' << positionRelativeMap.y << std::endl;
+
+        copyingCells->paste(positionRelativeMap);
+        std::cout << "paste" << std::endl;
     }
 }

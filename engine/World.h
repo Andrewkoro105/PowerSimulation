@@ -10,5 +10,6 @@ public:
     void Update(sf::RenderWindow *window, sf::Vector2i startCameraRender, sf::Vector2i endCameraRender);
     sf::Vector2i getSizeMap();
     void setObject(Object object, sf::Vector2i position);
+    Object getObject(sf::Vector2i position);
     bool  objectInMap(sf::Vector2i position);
 };

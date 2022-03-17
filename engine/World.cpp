@@ -19,3 +19,7 @@ bool World::objectInMap(sf::Vector2i position) {
     return map.objectInMap(position);
 }
 
+Object World::getObject(sf::Vector2i position) {
+    return map.getObject(position);
+}
+

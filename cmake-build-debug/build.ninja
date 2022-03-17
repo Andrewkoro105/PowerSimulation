@@ -169,6 +169,14 @@ build CMakeFiles/_PowerSimulation.dir/UnitTest/BitsTest/BitsTest.cpp.obj: CXX_CO
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\UnitTest\BitsTest
 
+build CMakeFiles/_PowerSimulation.dir/control/Copying.cpp.obj: CXX_COMPILER___PowerSimulation_Debug C$:/Project/_PowerSimulation/control/Copying.cpp || cmake_object_order_depends_target__PowerSimulation
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\_PowerSimulation.dir\control\Copying.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
+  OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\control
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target _PowerSimulation
@@ -177,7 +185,7 @@ build CMakeFiles/_PowerSimulation.dir/UnitTest/BitsTest/BitsTest.cpp.obj: CXX_CO
 #############################################
 # Link the executable _PowerSimulation.exe
 
-build _PowerSimulation.exe: CXX_EXECUTABLE_LINKER___PowerSimulation_Debug CMakeFiles/_PowerSimulation.dir/engine/main.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Camera.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Map.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/bloks/Object.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Game.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/World.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/bloks/Type.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/bits/Bits.cpp.obj CMakeFiles/_PowerSimulation.dir/control/Control.cpp.obj CMakeFiles/_PowerSimulation.dir/control/Keyboard.cpp.obj CMakeFiles/_PowerSimulation.dir/control/Mouse.cpp.obj CMakeFiles/_PowerSimulation.dir/Blocks.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Inventory.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/GeneralTexture.cpp.obj CMakeFiles/_PowerSimulation.dir/UnitTest/BitsTest/BitsTest.cpp.obj | C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a lib/libgtest.a lib/libgtest_main.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libfreetype.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
+build _PowerSimulation.exe: CXX_EXECUTABLE_LINKER___PowerSimulation_Debug CMakeFiles/_PowerSimulation.dir/engine/main.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Camera.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Map.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/bloks/Object.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Game.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/World.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/bloks/Type.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/bits/Bits.cpp.obj CMakeFiles/_PowerSimulation.dir/control/Control.cpp.obj CMakeFiles/_PowerSimulation.dir/control/Keyboard.cpp.obj CMakeFiles/_PowerSimulation.dir/control/Mouse.cpp.obj CMakeFiles/_PowerSimulation.dir/Blocks.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Inventory.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/GeneralTexture.cpp.obj CMakeFiles/_PowerSimulation.dir/UnitTest/BitsTest/BitsTest.cpp.obj CMakeFiles/_PowerSimulation.dir/control/Copying.cpp.obj | C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a lib/libgtest.a lib/libgtest_main.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libfreetype.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
   FLAGS = -g
   LINK_FLAGS = -static
   LINK_LIBRARIES = C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-graphics-s-d.a  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a  lib/libgtest.a  lib/libgtest_main.a  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-window-s-d.a  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a  -lwinmm  -lgdi32  -lOpenGL32  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libfreetype.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
