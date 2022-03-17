@@ -186,18 +186,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/engine/Map.h</url>
-          <line>16</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/engine/Map.cpp</url>
-          <line>292</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="CidrExceptionBreakpoint" />
         <breakpoint enabled="true" type="javascript-exception" />
@@ -230,6 +218,8 @@
         <watch expression="this-&gt;activCellsPostion" />
         <watch expression="this-&gt;activCellsPosition[0].x" />
         <watch expression="this" />
+        <watch expression="this-&gt;game-&gt;camera" />
+        <watch expression="this-&gt;game-&gt;camera" />
       </configuration>
     </watches-manager>
   </component>

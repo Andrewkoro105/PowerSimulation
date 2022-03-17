@@ -103,9 +103,27 @@ std::vector<std::vector<Object>> Map::cellsGenerating() {
     return std::vector<std::vector<Object>>(32, std::vector<Object>(32, Object{0, 0, 0}));
 }
 
-void Map::render(sf::RenderWindow *window) {
-    for (int x = 0; x < cells.size(); ++x) {
-        for (int y = 0; y < cells[0].size(); ++y) {
+void Map::render(sf::RenderWindow *window, sf::Vector2i startCameraRender, sf::Vector2i endCameraRender) {
+    sf::Vector2i startRender = generalTexture.toGamePosition(startCameraRender);
+    sf::Vector2i endRender = generalTexture.toGamePosition(endCameraRender) + sf::Vector2i(2, 0);
+    if (startRender.x < 0){
+        startRender.x = 0;
+    }
+    if (startRender.y >= cells[0].size()){
+        startRender.y = cells[0].size() - 1;
+    }
+    if (endRender.x > cells.size() ){
+        endRender.x = cells.size();
+    }
+    if (endRender.y < 0){
+        endRender.y = 0;
+    }
+/*
+    startRender = {0, static_cast<int>(cells[0].size()) - 1};
+    endRender = {static_cast<int>(cells.size()), 0};
+*/
+    for (int x = startRender.x; x < endRender.x; ++x) {
+        for (int y = startRender.y; y > endRender.y; --y) {
             spriteRender.setPosition(
                 x * generalTexture.sizeTeture + generalTexture.sizeTeture / 2,
                 y * -generalTexture.sizeTeture - generalTexture.sizeTeture / 2);

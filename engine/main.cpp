@@ -20,7 +20,7 @@ int main(int argc, char *argv[]) {
 
 
     Game game{world,
-                  Camera{new sf::RenderWindow{sf::VideoMode(), "ass", sf::Style::Fullscreen}}};
+                  Camera{new sf::RenderWindow{sf::VideoMode(), "ass", sf::Style::Fullscreen}, sf::Vector2f(), 1}};
     Control control(&game, &event);
 
     while (game.camera.window->isOpen()) {

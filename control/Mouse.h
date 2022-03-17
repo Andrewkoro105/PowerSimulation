@@ -8,7 +8,10 @@
 class Mouse {
     sf::Event* event;
     Game* game;
+
+    sf::Vector2i oldMousePosition;
 public:
+    sf::Vector2i toWorldPositionNotInventoryY(sf::Vector2i posMouse);
     sf::Vector2i toWorldPosition(sf::Vector2i posMouse);
     Mouse(Game* game, sf::Event* event);
     void Check();

@@ -28,7 +28,7 @@ class TypeObject {
         Default(std::array<uint8_t, 4> defaultActive) :
                 defaultActive(defaultActive){};
     };
-    const std::string pathMiltiTexture = "image/block/BlocksTexture.png";
+    const std::string pathMiltiTexture = "image/block/BlocksTexture-ai-2color.png";
     const std::vector<sf::Texture> textures;
 
     std::vector<sf::Texture> textureGenerator(std::vector<sf::Vector2i>& positionTexture, Static& _static, Default& _default);

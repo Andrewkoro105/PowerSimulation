@@ -11,7 +11,7 @@
 
 class Map
 {
-    const int updateTime = 250;
+    const int updateTime = 10;
     clock_t lastUpdateTime = 0;
     std::string pathToMap;
     std::vector <sf::Vector2i> activCellsPosition;
@@ -34,7 +34,7 @@ public:
     Map(std::string path);
     Map(std::vector<std::vector<Object>> objects, std::string path = "");
     ~Map();
-    void render(sf::RenderWindow* window);
+    void render(sf::RenderWindow *window, sf::Vector2i startCameraRender, sf::Vector2i endCameraRender);
     void energyUpdate();
     void energyCalculation();
     void setObject(Object object, sf::Vector2i position);

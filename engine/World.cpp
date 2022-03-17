@@ -3,8 +3,8 @@
 World::World(std::string path) : map(path) {}
 World::World(std::vector<std::vector<Object>> objects, std::string path) : map(objects, path) {}
 
-void World::Update(sf::RenderWindow* window) {
-    map.render(window);
+void World::Update(sf::RenderWindow *window, sf::Vector2i startCameraRender, sf::Vector2i endCameraRender) {
+    map.render(window, startCameraRender, endCameraRender);
 }
 
 sf::Vector2i World::getSizeMap() {
