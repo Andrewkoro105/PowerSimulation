@@ -1,4 +1,5 @@
 #include "Mouse.h"
+#include "../engine/Inventory.h"
 
 Mouse::Mouse(Game* game, sf::Event* event) : event(event), game(game), oldMousePosition(sf::Mouse::getPosition(*game->camera.window)) {}
 
@@ -21,8 +22,18 @@ void Mouse::Check() {
 
         game->world->setObject(Object(0, 0, 0), positionRelativeMap);
 
-    } else if (event->type == sf::Event::MouseWheelMoved){
-        game->camera.editZoom(event->mouseWheel.delta * -0.1 + 1);
+    }
+    if (event->type == sf::Event::MouseWheelMoved){
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::LControl)){
+            if (event->mouseWheel.delta == 1)
+                inventory.upType();
+            else
+                inventory.downType();
+        } else if (sf::Keyboard::isKeyPressed(sf::Keyboard::LAlt)){
+            if (event->mouseWheel.delta == 1)
+                inventory.upRotation();
+        } else
+            game->camera.editZoom(event->mouseWheel.delta * -0.1 + 1);
     }
 
     oldMousePosition = sf::Mouse::getPosition(*game->camera.window);

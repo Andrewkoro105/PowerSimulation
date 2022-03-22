@@ -11,7 +11,7 @@
 
 class Map
 {
-    const int updateTime = 10;
+    const int updateTime = 0;
     clock_t lastUpdateTime = 0;
     std::string pathToMap;
     std::vector <sf::Vector2i> activCellsPosition;

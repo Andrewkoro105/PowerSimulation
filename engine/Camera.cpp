@@ -14,8 +14,9 @@ void Camera::setWorld(World* world) {
 void Camera::render()
 {
 
-    sf::Vector2i startCameraRender(view.getCenter() - (view.getSize() / 2.f))
-            , endCameraRender(view.getCenter() + (sf::Vector2f(view.getSize().x, view.getSize().y * -1) / 2.f));
+    sf::Vector2i startCameraRender(view.getCenter() + (sf::Vector2f(view.getSize().x * -1, view.getSize().y) / 2.f));
+    sf::Vector2i endCameraRender(view.getCenter() + (sf::Vector2f(view.getSize().x, view.getSize().y * -1) / 2.f));
+
     window->clear(sf::Color(41, 51, 50));
     world->Update(window,startCameraRender, endCameraRender);
     window->display();

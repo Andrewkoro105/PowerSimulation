@@ -47,13 +47,13 @@ cmake_ninja_workdir = C$:/Project/_PowerSimulation/cmake-build-debug/
 #############################################
 # Order-only phony target for _PowerSimulation
 
-build cmake_object_order_depends_target__PowerSimulation: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
+build cmake_object_order_depends_target__PowerSimulation: phony || CMakeFiles/_PowerSimulation.dir
 
 build CMakeFiles/_PowerSimulation.dir/engine/main.cpp.obj: CXX_COMPILER___PowerSimulation_Debug C$:/Project/_PowerSimulation/engine/main.cpp || cmake_object_order_depends_target__PowerSimulation
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\_PowerSimulation.dir\engine\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\engine
 
@@ -61,7 +61,7 @@ build CMakeFiles/_PowerSimulation.dir/engine/Camera.cpp.obj: CXX_COMPILER___Powe
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\_PowerSimulation.dir\engine\Camera.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\engine
 
@@ -69,7 +69,7 @@ build CMakeFiles/_PowerSimulation.dir/engine/Map.cpp.obj: CXX_COMPILER___PowerSi
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\_PowerSimulation.dir\engine\Map.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\engine
 
@@ -77,7 +77,7 @@ build CMakeFiles/_PowerSimulation.dir/engine/bloks/Object.cpp.obj: CXX_COMPILER_
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\_PowerSimulation.dir\engine\bloks\Object.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\engine\bloks
 
@@ -85,7 +85,7 @@ build CMakeFiles/_PowerSimulation.dir/engine/Game.cpp.obj: CXX_COMPILER___PowerS
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\_PowerSimulation.dir\engine\Game.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\engine
 
@@ -93,7 +93,7 @@ build CMakeFiles/_PowerSimulation.dir/engine/World.cpp.obj: CXX_COMPILER___Power
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\_PowerSimulation.dir\engine\World.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\engine
 
@@ -101,7 +101,7 @@ build CMakeFiles/_PowerSimulation.dir/engine/bloks/Type.cpp.obj: CXX_COMPILER___
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\_PowerSimulation.dir\engine\bloks\Type.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\engine\bloks
 
@@ -109,7 +109,7 @@ build CMakeFiles/_PowerSimulation.dir/engine/bits/Bits.cpp.obj: CXX_COMPILER___P
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\_PowerSimulation.dir\engine\bits\Bits.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\engine\bits
 
@@ -117,7 +117,7 @@ build CMakeFiles/_PowerSimulation.dir/control/Control.cpp.obj: CXX_COMPILER___Po
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\_PowerSimulation.dir\control\Control.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\control
 
@@ -125,7 +125,7 @@ build CMakeFiles/_PowerSimulation.dir/control/Keyboard.cpp.obj: CXX_COMPILER___P
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\_PowerSimulation.dir\control\Keyboard.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\control
 
@@ -133,7 +133,7 @@ build CMakeFiles/_PowerSimulation.dir/control/Mouse.cpp.obj: CXX_COMPILER___Powe
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\_PowerSimulation.dir\control\Mouse.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\control
 
@@ -141,7 +141,7 @@ build CMakeFiles/_PowerSimulation.dir/Blocks.cpp.obj: CXX_COMPILER___PowerSimula
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\_PowerSimulation.dir\Blocks.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir
 
@@ -149,7 +149,7 @@ build CMakeFiles/_PowerSimulation.dir/engine/Inventory.cpp.obj: CXX_COMPILER___P
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\_PowerSimulation.dir\engine\Inventory.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\engine
 
@@ -157,23 +157,15 @@ build CMakeFiles/_PowerSimulation.dir/engine/GeneralTexture.cpp.obj: CXX_COMPILE
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\_PowerSimulation.dir\engine\GeneralTexture.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\engine
-
-build CMakeFiles/_PowerSimulation.dir/UnitTest/BitsTest/BitsTest.cpp.obj: CXX_COMPILER___PowerSimulation_Debug C$:/Project/_PowerSimulation/UnitTest/BitsTest/BitsTest.cpp || cmake_object_order_depends_target__PowerSimulation
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\_PowerSimulation.dir\UnitTest\BitsTest\BitsTest.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
-  OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
-  OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\UnitTest\BitsTest
 
 build CMakeFiles/_PowerSimulation.dir/control/Copying.cpp.obj: CXX_COMPILER___PowerSimulation_Debug C$:/Project/_PowerSimulation/control/Copying.cpp || cmake_object_order_depends_target__PowerSimulation
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\_PowerSimulation.dir\control\Copying.cpp.obj.d
   FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
+  INCLUDES = -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   OBJECT_FILE_DIR = CMakeFiles\_PowerSimulation.dir\control
 
@@ -185,40 +177,16 @@ build CMakeFiles/_PowerSimulation.dir/control/Copying.cpp.obj: CXX_COMPILER___Po
 #############################################
 # Link the executable _PowerSimulation.exe
 
-build _PowerSimulation.exe: CXX_EXECUTABLE_LINKER___PowerSimulation_Debug CMakeFiles/_PowerSimulation.dir/engine/main.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Camera.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Map.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/bloks/Object.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Game.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/World.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/bloks/Type.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/bits/Bits.cpp.obj CMakeFiles/_PowerSimulation.dir/control/Control.cpp.obj CMakeFiles/_PowerSimulation.dir/control/Keyboard.cpp.obj CMakeFiles/_PowerSimulation.dir/control/Mouse.cpp.obj CMakeFiles/_PowerSimulation.dir/Blocks.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Inventory.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/GeneralTexture.cpp.obj CMakeFiles/_PowerSimulation.dir/UnitTest/BitsTest/BitsTest.cpp.obj CMakeFiles/_PowerSimulation.dir/control/Copying.cpp.obj | C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a lib/libgtest.a lib/libgtest_main.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libfreetype.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
+build _PowerSimulation.exe: CXX_EXECUTABLE_LINKER___PowerSimulation_Debug CMakeFiles/_PowerSimulation.dir/engine/main.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Camera.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Map.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/bloks/Object.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Game.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/World.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/bloks/Type.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/bits/Bits.cpp.obj CMakeFiles/_PowerSimulation.dir/control/Control.cpp.obj CMakeFiles/_PowerSimulation.dir/control/Keyboard.cpp.obj CMakeFiles/_PowerSimulation.dir/control/Mouse.cpp.obj CMakeFiles/_PowerSimulation.dir/Blocks.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/Inventory.cpp.obj CMakeFiles/_PowerSimulation.dir/engine/GeneralTexture.cpp.obj CMakeFiles/_PowerSimulation.dir/control/Copying.cpp.obj | C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libfreetype.a
   FLAGS = -g
   LINK_FLAGS = -static
-  LINK_LIBRARIES = C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-graphics-s-d.a  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a  lib/libgtest.a  lib/libgtest_main.a  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-window-s-d.a  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a  -lwinmm  -lgdi32  -lOpenGL32  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libfreetype.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-graphics-s-d.a  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-window-s-d.a  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a  -lwinmm  -lgdi32  -lOpenGL32  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libfreetype.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\_PowerSimulation.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
   TARGET_FILE = _PowerSimulation.exe
   TARGET_IMPLIB = lib_PowerSimulation.dll.a
   TARGET_PDB = _PowerSimulation.exe.dbg
-
-
-#############################################
-# Utility command for install/local
-
-build CMakeFiles/install/local.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Project\_PowerSimulation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build install/local: phony CMakeFiles/install/local.util
-
-
-#############################################
-# Utility command for install
-
-build CMakeFiles/install.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Project\_PowerSimulation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build install: phony CMakeFiles/install.util
 
 
 #############################################
@@ -243,556 +211,10 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
-
-#############################################
-# Utility command for list_install_components
-
-build list_install_components: phony
-
-
-#############################################
-# Utility command for install/strip
-
-build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
-  COMMAND = cmd.exe /C "cd /D C:\Project\_PowerSimulation\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build install/strip: phony CMakeFiles/install/strip.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Project/_PowerSimulation/CMakeLists.txt
-# =============================================================================
-
-
-#############################################
-# Utility command for list_install_components
-
-build UnitTest/list_install_components: phony
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Google_Tests_run
-
-
-#############################################
-# Order-only phony target for Google_Tests_run
-
-build cmake_object_order_depends_target_Google_Tests_run: phony || cmake_object_order_depends_target_gtest cmake_object_order_depends_target_gtest_main
-
-build UnitTest/CMakeFiles/Google_Tests_run.dir/BitsTest/BitsTest.cpp.obj: CXX_COMPILER__Google_Tests_run_Debug C$:/Project/_PowerSimulation/UnitTest/BitsTest/BitsTest.cpp || cmake_object_order_depends_target_Google_Tests_run
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = UnitTest\CMakeFiles\Google_Tests_run.dir\BitsTest\BitsTest.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
-  OBJECT_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir
-  OBJECT_FILE_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir\BitsTest
-
-build UnitTest/CMakeFiles/Google_Tests_run.dir/__/engine/bits/Bits.cpp.obj: CXX_COMPILER__Google_Tests_run_Debug C$:/Project/_PowerSimulation/engine/bits/Bits.cpp || cmake_object_order_depends_target_Google_Tests_run
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = UnitTest\CMakeFiles\Google_Tests_run.dir\__\engine\bits\Bits.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
-  OBJECT_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir
-  OBJECT_FILE_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir\__\engine\bits
-
-build UnitTest/CMakeFiles/Google_Tests_run.dir/__/engine/Map.cpp.obj: CXX_COMPILER__Google_Tests_run_Debug C$:/Project/_PowerSimulation/engine/Map.cpp || cmake_object_order_depends_target_Google_Tests_run
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = UnitTest\CMakeFiles\Google_Tests_run.dir\__\engine\Map.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
-  OBJECT_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir
-  OBJECT_FILE_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir\__\engine
-
-build UnitTest/CMakeFiles/Google_Tests_run.dir/__/engine/bloks/Type.cpp.obj: CXX_COMPILER__Google_Tests_run_Debug C$:/Project/_PowerSimulation/engine/bloks/Type.cpp || cmake_object_order_depends_target_Google_Tests_run
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = UnitTest\CMakeFiles\Google_Tests_run.dir\__\engine\bloks\Type.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
-  OBJECT_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir
-  OBJECT_FILE_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir\__\engine\bloks
-
-build UnitTest/CMakeFiles/Google_Tests_run.dir/__/engine/bloks/Object.cpp.obj: CXX_COMPILER__Google_Tests_run_Debug C$:/Project/_PowerSimulation/engine/bloks/Object.cpp || cmake_object_order_depends_target_Google_Tests_run
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = UnitTest\CMakeFiles\Google_Tests_run.dir\__\engine\bloks\Object.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
-  OBJECT_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir
-  OBJECT_FILE_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir\__\engine\bloks
-
-build UnitTest/CMakeFiles/Google_Tests_run.dir/__/engine/GeneralTexture.cpp.obj: CXX_COMPILER__Google_Tests_run_Debug C$:/Project/_PowerSimulation/engine/GeneralTexture.cpp || cmake_object_order_depends_target_Google_Tests_run
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = UnitTest\CMakeFiles\Google_Tests_run.dir\__\engine\GeneralTexture.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
-  OBJECT_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir
-  OBJECT_FILE_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir\__\engine
-
-build UnitTest/CMakeFiles/Google_Tests_run.dir/__/Blocks.cpp.obj: CXX_COMPILER__Google_Tests_run_Debug C$:/Project/_PowerSimulation/Blocks.cpp || cmake_object_order_depends_target_Google_Tests_run
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = UnitTest\CMakeFiles\Google_Tests_run.dir\__\Blocks.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
-  OBJECT_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir
-  OBJECT_FILE_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir\__
-
-build UnitTest/CMakeFiles/Google_Tests_run.dir/MapSaveTest/MapTest.cpp.obj: CXX_COMPILER__Google_Tests_run_Debug C$:/Project/_PowerSimulation/UnitTest/MapSaveTest/MapTest.cpp || cmake_object_order_depends_target_Google_Tests_run
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = UnitTest\CMakeFiles\Google_Tests_run.dir\MapSaveTest\MapTest.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
-  OBJECT_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir
-  OBJECT_FILE_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir\MapSaveTest
-
-build UnitTest/CMakeFiles/Google_Tests_run.dir/EnergyTest/EnergyTest.cpp.obj: CXX_COMPILER__Google_Tests_run_Debug C$:/Project/_PowerSimulation/UnitTest/EnergyTest/EnergyTest.cpp || cmake_object_order_depends_target_Google_Tests_run
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = UnitTest\CMakeFiles\Google_Tests_run.dir\EnergyTest\EnergyTest.cpp.obj.d
-  FLAGS = -g -std=gnu++20
-  INCLUDES = -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest -isystem C:/SFML-2.5.1-clion/SFML-2.5.1/include
-  OBJECT_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir
-  OBJECT_FILE_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir\EnergyTest
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Google_Tests_run
-
-
-#############################################
-# Link the executable UnitTest\Google_Tests_run.exe
-
-build UnitTest/Google_Tests_run.exe: CXX_EXECUTABLE_LINKER__Google_Tests_run_Debug UnitTest/CMakeFiles/Google_Tests_run.dir/BitsTest/BitsTest.cpp.obj UnitTest/CMakeFiles/Google_Tests_run.dir/__/engine/bits/Bits.cpp.obj UnitTest/CMakeFiles/Google_Tests_run.dir/__/engine/Map.cpp.obj UnitTest/CMakeFiles/Google_Tests_run.dir/__/engine/bloks/Type.cpp.obj UnitTest/CMakeFiles/Google_Tests_run.dir/__/engine/bloks/Object.cpp.obj UnitTest/CMakeFiles/Google_Tests_run.dir/__/engine/GeneralTexture.cpp.obj UnitTest/CMakeFiles/Google_Tests_run.dir/__/Blocks.cpp.obj UnitTest/CMakeFiles/Google_Tests_run.dir/MapSaveTest/MapTest.cpp.obj UnitTest/CMakeFiles/Google_Tests_run.dir/EnergyTest/EnergyTest.cpp.obj | C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-graphics-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a lib/libgtest.a lib/libgtest_main.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-window-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/libfreetype.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
-  FLAGS = -g
-  LINK_FLAGS = -static
-  LINK_LIBRARIES = C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-graphics-s-d.a  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a  lib/libgtest.a  lib/libgtest_main.a  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-window-s-d.a  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libsfml-system-s-d.a  -lwinmm  -lgdi32  -lOpenGL32  C:/SFML-2.5.1-clion/SFML-2.5.1/lib/libfreetype.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = UnitTest\CMakeFiles\Google_Tests_run.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = UnitTest\Google_Tests_run.exe
-  TARGET_IMPLIB = UnitTest\libGoogle_Tests_run.dll.a
-  TARGET_PDB = Google_Tests_run.exe.dbg
-
-
-#############################################
-# Utility command for install/local
-
-build UnitTest/CMakeFiles/install/local.util: CUSTOM_COMMAND UnitTest/all
-  COMMAND = cmd.exe /C "cd /D C:\Project\_PowerSimulation\cmake-build-debug\UnitTest && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build UnitTest/install/local: phony UnitTest/CMakeFiles/install/local.util
-
-
-#############################################
-# Utility command for install
-
-build UnitTest/CMakeFiles/install.util: CUSTOM_COMMAND UnitTest/all
-  COMMAND = cmd.exe /C "cd /D C:\Project\_PowerSimulation\cmake-build-debug\UnitTest && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build UnitTest/install: phony UnitTest/CMakeFiles/install.util
-
-
-#############################################
-# Utility command for edit_cache
-
-build UnitTest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Project\_PowerSimulation\cmake-build-debug\UnitTest && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build UnitTest/edit_cache: phony UnitTest/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build UnitTest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Project\_PowerSimulation\cmake-build-debug\UnitTest && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Project\_PowerSimulation -BC:\Project\_PowerSimulation\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build UnitTest/rebuild_cache: phony UnitTest/CMakeFiles/rebuild_cache.util
-
-
-#############################################
-# Utility command for install/strip
-
-build UnitTest/CMakeFiles/install/strip.util: CUSTOM_COMMAND UnitTest/all
-  COMMAND = cmd.exe /C "cd /D C:\Project\_PowerSimulation\cmake-build-debug\UnitTest && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build UnitTest/install/strip: phony UnitTest/CMakeFiles/install/strip.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Project/_PowerSimulation/UnitTest/CMakeLists.txt
-# =============================================================================
-
-
-#############################################
-# Utility command for install/local
-
-build C$:/googletest/build/CMakeFiles/install/local.util: CUSTOM_COMMAND C$:/googletest/build/all
-  COMMAND = cmd.exe /C "cd /D C:\googletest\build && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build C$:/googletest/build/install/local: phony C$:/googletest/build/CMakeFiles/install/local.util
-
-
-#############################################
-# Utility command for install
-
-build C$:/googletest/build/CMakeFiles/install.util: CUSTOM_COMMAND C$:/googletest/build/all
-  COMMAND = cmd.exe /C "cd /D C:\googletest\build && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build C$:/googletest/build/install: phony C$:/googletest/build/CMakeFiles/install.util
-
-
-#############################################
-# Utility command for edit_cache
-
-build C$:/googletest/build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\googletest\build && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build C$:/googletest/build/edit_cache: phony C$:/googletest/build/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build C$:/googletest/build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\googletest\build && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Project\_PowerSimulation -BC:\Project\_PowerSimulation\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build C$:/googletest/build/rebuild_cache: phony C$:/googletest/build/CMakeFiles/rebuild_cache.util
-
-
-#############################################
-# Utility command for list_install_components
-
-build C$:/googletest/build/list_install_components: phony
-
-
-#############################################
-# Utility command for install/strip
-
-build C$:/googletest/build/CMakeFiles/install/strip.util: CUSTOM_COMMAND C$:/googletest/build/all
-  COMMAND = cmd.exe /C "cd /D C:\googletest\build && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build C$:/googletest/build/install/strip: phony C$:/googletest/build/CMakeFiles/install/strip.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/googletest/CMakeLists.txt
-# =============================================================================
-
-
-#############################################
-# Utility command for install/local
-
-build C$:/googletest/build/googlemock/CMakeFiles/install/local.util: CUSTOM_COMMAND C$:/googletest/build/googlemock/all
-  COMMAND = cmd.exe /C "cd /D C:\googletest\build\googlemock && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build C$:/googletest/build/googlemock/install/local: phony C$:/googletest/build/googlemock/CMakeFiles/install/local.util
-
-
-#############################################
-# Utility command for install
-
-build C$:/googletest/build/googlemock/CMakeFiles/install.util: CUSTOM_COMMAND C$:/googletest/build/googlemock/all
-  COMMAND = cmd.exe /C "cd /D C:\googletest\build\googlemock && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build C$:/googletest/build/googlemock/install: phony C$:/googletest/build/googlemock/CMakeFiles/install.util
-
-
-#############################################
-# Utility command for edit_cache
-
-build C$:/googletest/build/googlemock/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\googletest\build\googlemock && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build C$:/googletest/build/googlemock/edit_cache: phony C$:/googletest/build/googlemock/CMakeFiles/edit_cache.util
-
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target gmock_main
-
-
-#############################################
-# Order-only phony target for gmock_main
-
-build cmake_object_order_depends_target_gmock_main: phony || cmake_object_order_depends_target_gmock cmake_object_order_depends_target_gtest
-
-build C$:/googletest/build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj: CXX_COMPILER__gmock_main_Debug C$:/googletest/googlemock/src/gmock_main.cc || cmake_object_order_depends_target_gmock_main
-  DEP_FILE = C:\googletest\build\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj.d
-  FLAGS = -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++20
-  INCLUDES = -isystem C:/googletest/googlemock/include -isystem C:/googletest/googlemock -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
-  OBJECT_DIR = C:\googletest\build\googlemock\CMakeFiles\gmock_main.dir
-  OBJECT_FILE_DIR = C:\googletest\build\googlemock\CMakeFiles\gmock_main.dir\src
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target gmock_main
-
-
-#############################################
-# Link the static library lib\libgmock_main.a
-
-build lib/libgmock_main.a: CXX_STATIC_LIBRARY_LINKER__gmock_main_Debug C$:/googletest/build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj || lib/libgmock.a lib/libgtest.a
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = C:\googletest\build\googlemock\CMakeFiles\gmock_main.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = lib\libgmock_main.a
-  TARGET_PDB = gmock_main.a.dbg
-
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target gmock
-
-
-#############################################
-# Order-only phony target for gmock
-
-build cmake_object_order_depends_target_gmock: phony || cmake_object_order_depends_target_gtest
-
-build C$:/googletest/build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: CXX_COMPILER__gmock_Debug C$:/googletest/googlemock/src/gmock-all.cc || cmake_object_order_depends_target_gmock
-  DEP_FILE = C:\googletest\build\googlemock\CMakeFiles\gmock.dir\src\gmock-all.cc.obj.d
-  FLAGS = -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++20
-  INCLUDES = -IC:/googletest/googlemock/include -IC:/googletest/googlemock -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
-  OBJECT_DIR = C:\googletest\build\googlemock\CMakeFiles\gmock.dir
-  OBJECT_FILE_DIR = C:\googletest\build\googlemock\CMakeFiles\gmock.dir\src
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target gmock
-
-
-#############################################
-# Link the static library lib\libgmock.a
-
-build lib/libgmock.a: CXX_STATIC_LIBRARY_LINKER__gmock_Debug C$:/googletest/build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj || lib/libgtest.a
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = C:\googletest\build\googlemock\CMakeFiles\gmock.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = lib\libgmock.a
-  TARGET_PDB = gmock.a.dbg
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build C$:/googletest/build/googlemock/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\googletest\build\googlemock && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Project\_PowerSimulation -BC:\Project\_PowerSimulation\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build C$:/googletest/build/googlemock/rebuild_cache: phony C$:/googletest/build/googlemock/CMakeFiles/rebuild_cache.util
-
-
-#############################################
-# Utility command for list_install_components
-
-build C$:/googletest/build/googlemock/list_install_components: phony
-
-
-#############################################
-# Utility command for install/strip
-
-build C$:/googletest/build/googlemock/CMakeFiles/install/strip.util: CUSTOM_COMMAND C$:/googletest/build/googlemock/all
-  COMMAND = cmd.exe /C "cd /D C:\googletest\build\googlemock && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build C$:/googletest/build/googlemock/install/strip: phony C$:/googletest/build/googlemock/CMakeFiles/install/strip.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/googletest/googlemock/CMakeLists.txt
-# =============================================================================
-
-
-#############################################
-# Utility command for list_install_components
-
-build C$:/googletest/build/googletest/list_install_components: phony
-
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target gtest
-
-
-#############################################
-# Order-only phony target for gtest
-
-build cmake_object_order_depends_target_gtest: phony || C$:/googletest/build/googletest/CMakeFiles/gtest.dir
-
-build C$:/googletest/build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: CXX_COMPILER__gtest_Debug C$:/googletest/googletest/src/gtest-all.cc || cmake_object_order_depends_target_gtest
-  DEP_FILE = C:\googletest\build\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj.d
-  FLAGS = -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++20
-  INCLUDES = -IC:/googletest/googletest/include -IC:/googletest/googletest
-  OBJECT_DIR = C:\googletest\build\googletest\CMakeFiles\gtest.dir
-  OBJECT_FILE_DIR = C:\googletest\build\googletest\CMakeFiles\gtest.dir\src
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target gtest
-
-
-#############################################
-# Link the static library lib\libgtest.a
-
-build lib/libgtest.a: CXX_STATIC_LIBRARY_LINKER__gtest_Debug C$:/googletest/build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = C:\googletest\build\googletest\CMakeFiles\gtest.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = lib\libgtest.a
-  TARGET_PDB = gtest.a.dbg
-
-# =============================================================================
-# Object build statements for STATIC_LIBRARY target gtest_main
-
-
-#############################################
-# Order-only phony target for gtest_main
-
-build cmake_object_order_depends_target_gtest_main: phony || cmake_object_order_depends_target_gtest
-
-build C$:/googletest/build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: CXX_COMPILER__gtest_main_Debug C$:/googletest/googletest/src/gtest_main.cc || cmake_object_order_depends_target_gtest_main
-  DEP_FILE = C:\googletest\build\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj.d
-  FLAGS = -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++20
-  INCLUDES = -isystem C:/googletest/googletest/include -isystem C:/googletest/googletest
-  OBJECT_DIR = C:\googletest\build\googletest\CMakeFiles\gtest_main.dir
-  OBJECT_FILE_DIR = C:\googletest\build\googletest\CMakeFiles\gtest_main.dir\src
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target gtest_main
-
-
-#############################################
-# Link the static library lib\libgtest_main.a
-
-build lib/libgtest_main.a: CXX_STATIC_LIBRARY_LINKER__gtest_main_Debug C$:/googletest/build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj || lib/libgtest.a
-  LANGUAGE_COMPILE_FLAGS = -g
-  OBJECT_DIR = C:\googletest\build\googletest\CMakeFiles\gtest_main.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = lib\libgtest_main.a
-  TARGET_PDB = gtest_main.a.dbg
-
-
-#############################################
-# Utility command for install/local
-
-build C$:/googletest/build/googletest/CMakeFiles/install/local.util: CUSTOM_COMMAND C$:/googletest/build/googletest/all
-  COMMAND = cmd.exe /C "cd /D C:\googletest\build\googletest && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
-  DESC = Installing only the local directory...
-  pool = console
-  restat = 1
-
-build C$:/googletest/build/googletest/install/local: phony C$:/googletest/build/googletest/CMakeFiles/install/local.util
-
-
-#############################################
-# Utility command for install
-
-build C$:/googletest/build/googletest/CMakeFiles/install.util: CUSTOM_COMMAND C$:/googletest/build/googletest/all
-  COMMAND = cmd.exe /C "cd /D C:\googletest\build\googletest && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build C$:/googletest/build/googletest/install: phony C$:/googletest/build/googletest/CMakeFiles/install.util
-
-
-#############################################
-# Utility command for edit_cache
-
-build C$:/googletest/build/googletest/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\googletest\build\googletest && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build C$:/googletest/build/googletest/edit_cache: phony C$:/googletest/build/googletest/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build C$:/googletest/build/googletest/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\googletest\build\googletest && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Project\_PowerSimulation -BC:\Project\_PowerSimulation\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build C$:/googletest/build/googletest/rebuild_cache: phony C$:/googletest/build/googletest/CMakeFiles/rebuild_cache.util
-
-
-#############################################
-# Utility command for install/strip
-
-build C$:/googletest/build/googletest/CMakeFiles/install/strip.util: CUSTOM_COMMAND C$:/googletest/build/googletest/all
-  COMMAND = cmd.exe /C "cd /D C:\googletest\build\googletest && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
-  DESC = Installing the project stripped...
-  pool = console
-  restat = 1
-
-build C$:/googletest/build/googletest/install/strip: phony C$:/googletest/build/googletest/CMakeFiles/install/strip.util
-
 # =============================================================================
 # Target aliases.
 
-build Google_Tests_run: phony UnitTest/Google_Tests_run.exe
-
-build Google_Tests_run.exe: phony UnitTest/Google_Tests_run.exe
-
 build _PowerSimulation: phony _PowerSimulation.exe
-
-build gmock: phony lib/libgmock.a
-
-build gmock_main: phony lib/libgmock_main.a
-
-build gtest: phony lib/libgtest.a
-
-build gtest_main: phony lib/libgtest_main.a
-
-build libgmock.a: phony lib/libgmock.a
-
-build libgmock_main.a: phony lib/libgmock_main.a
-
-build libgtest.a: phony lib/libgtest.a
-
-build libgtest_main.a: phony lib/libgtest_main.a
 
 # =============================================================================
 # Folder targets.
@@ -802,35 +224,7 @@ build libgtest_main.a: phony lib/libgtest_main.a
 #############################################
 # Folder: C:/Project/_PowerSimulation/cmake-build-debug
 
-build all: phony _PowerSimulation.exe UnitTest/all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Project/_PowerSimulation/cmake-build-debug/UnitTest
-
-build UnitTest/all: phony UnitTest/Google_Tests_run.exe C$:/googletest/build/all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/googletest/build
-
-build C$:/googletest/build/all: phony C$:/googletest/build/googlemock/all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/googletest/build/googlemock
-
-build C$:/googletest/build/googlemock/all: phony lib/libgmock_main.a lib/libgmock.a C$:/googletest/build/googletest/all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/googletest/build/googletest
-
-build C$:/googletest/build/googletest/all: phony lib/libgtest.a lib/libgtest_main.a
+build all: phony _PowerSimulation.exe
 
 # =============================================================================
 # Built-in targets
@@ -839,14 +233,14 @@ build C$:/googletest/build/googletest/all: phony lib/libgtest.a lib/libgtest_mai
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt ../UnitTest/CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/FindPython.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake C$:/googletest/CMakeLists.txt C$:/googletest/googlemock/CMakeLists.txt C$:/googletest/googlemock/cmake/gmock.pc.in C$:/googletest/googlemock/cmake/gmock_main.pc.in C$:/googletest/googletest/CMakeLists.txt C$:/googletest/googletest/cmake/Config.cmake.in C$:/googletest/googletest/cmake/gtest.pc.in C$:/googletest/googletest/cmake/gtest_main.pc.in C$:/googletest/googletest/cmake/internal_utils.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt ../UnitTest/CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeDependentOption.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/FindPython.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/FindPython/Support.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/WriteBasicConfigVersionFile.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake C$:/googletest/CMakeLists.txt C$:/googletest/googlemock/CMakeLists.txt C$:/googletest/googlemock/cmake/gmock.pc.in C$:/googletest/googlemock/cmake/gmock_main.pc.in C$:/googletest/googletest/CMakeLists.txt C$:/googletest/googletest/cmake/Config.cmake.in C$:/googletest/googletest/cmake/gtest.pc.in C$:/googletest/googletest/cmake/gtest_main.pc.in C$:/googletest/googletest/cmake/internal_utils.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
+build ../CMakeLists.txt C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2021.3.3/bin/cmake/win/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLConfigDependencies.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLConfigVersion.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-debug.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets-release.cmake C$:/SFML-2.5.1-clion/SFML-2.5.1/lib/cmake/SFML/SFMLStaticTargets.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeRCCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
 
 
 #############################################

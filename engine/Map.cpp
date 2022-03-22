@@ -1,5 +1,6 @@
 #include "Map.h"
 #include <algorithm>
+#include <iostream>
 
 Map::Map(std::vector<std::vector<Object>> objects, std::string path) : cells(objects), pathToMap(path) {
     spriteRender.setOrigin(generalTexture.sizeTeture/2, generalTexture.sizeTeture/2);
@@ -104,26 +105,26 @@ std::vector<std::vector<Object>> Map::cellsGenerating() {
 }
 
 void Map::render(sf::RenderWindow *window, sf::Vector2i startCameraRender, sf::Vector2i endCameraRender) {
+    startCameraRender.y = -startCameraRender.y;
+    endCameraRender.y = -endCameraRender.y;
     sf::Vector2i startRender = generalTexture.toGamePosition(startCameraRender);
-    sf::Vector2i endRender = generalTexture.toGamePosition(endCameraRender) + sf::Vector2i(2, 0);
+    sf::Vector2i endRender = generalTexture.toGamePosition(endCameraRender);
+
     if (startRender.x < 0){
         startRender.x = 0;
     }
-    if (startRender.y >= cells[0].size()){
-        startRender.y = cells[0].size() - 1;
+    if (startRender.y < 0){
+        startRender.y = 0;
     }
-    if (endRender.x > cells.size() ){
-        endRender.x = cells.size();
+    if (endRender.x >= cells.size() ){
+        endRender.x = cells.size() - 1;
     }
-    if (endRender.y < 0){
-        endRender.y = 0;
+    if (endRender.y >= cells[0].size()){
+        endRender.y = cells[0].size() - 1;
     }
-/*
-    startRender = {0, static_cast<int>(cells[0].size()) - 1};
-    endRender = {static_cast<int>(cells.size()), 0};
-*/
-    for (int x = startRender.x; x < endRender.x; ++x) {
-        for (int y = startRender.y; y > endRender.y; --y) {
+
+    for (int x = startRender.x; x <= endRender.x; ++x) {
+        for (int y = startRender.y; y <= endRender.y; ++y) {
             spriteRender.setPosition(
                 x * generalTexture.sizeTeture + generalTexture.sizeTeture / 2,
                 y * -generalTexture.sizeTeture - generalTexture.sizeTeture / 2);
@@ -132,7 +133,6 @@ void Map::render(sf::RenderWindow *window, sf::Vector2i startCameraRender, sf::V
             window->draw(spriteRender);
         }
     }
-    //energyCalculation();
     energyUpdate();
 }
 

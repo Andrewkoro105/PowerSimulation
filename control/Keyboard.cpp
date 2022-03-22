@@ -40,10 +40,8 @@ void Keyboard::copying() {
 
     sf::Vector2i endPositionRelativeWorld(game->camera.toWorldPositionNotInventoryY(sf::Mouse::getPosition(*game->camera.window)));
     sf::Vector2i endPositionRelativeMap(generalTexture.toGamePosition(endPositionRelativeWorld));
-    std::cout << endPositionRelativeMap.x << ' ' << endPositionRelativeMap.y << std::endl;
 
     copyingCells = new Copying(startPositionRelativeMap, endPositionRelativeMap, *game->world);
-    std::cout << "copy"<< std::endl;
 }
 
 void Keyboard::paste() {
@@ -51,9 +49,7 @@ void Keyboard::paste() {
         sf::Vector2i positionRelativeWorld(
                 game->camera.toWorldPositionNotInventoryY(sf::Mouse::getPosition(*game->camera.window)));
         sf::Vector2i positionRelativeMap(generalTexture.toGamePosition(positionRelativeWorld));
-        std::cout << positionRelativeMap.x << ' ' << positionRelativeMap.y << std::endl;
 
         copyingCells->paste(positionRelativeMap);
-        std::cout << "paste" << std::endl;
     }
 }
